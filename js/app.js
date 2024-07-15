@@ -3,6 +3,11 @@ let listaNomesDigitados = []
 function adicionar() {
     nomeDigitado = document.getElementById("nome-amigo").value
 
+    if (listaNomesDigitados.includes(nomeDigitado)){
+        alert("Contém dois nomes iguais, por favor, insira um sobrenome para diferenciar.");
+        return false;
+    }
+
     if (nomeDigitado === "") {
         alert("Por favor, insira um nome válido.");
         return false;
@@ -48,10 +53,3 @@ function reiniciar() {
     listaNomesDigitados = []
 
 }
-
-
-
-
-
-
-
