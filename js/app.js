@@ -26,6 +26,10 @@ function embaralhar(lista) {
 }
 
 function sortear() {
+    if(listaNomesDigitados.length < 4){
+        alert("Por favor, insira pelo menos quatro nomes.");
+        return false;
+    }
     embaralhar(listaNomesDigitados);
     let resultado = "";
     for (let i = 0; i < listaNomesDigitados.length; i++) {
