@@ -1,0 +1,33 @@
+Amigo Secreto
+Descrição do Projeto
+Este é um aplicativo para organizar e sortear amigos para um evento de Amigo Secreto. A aplicação permite adicionar os nomes dos participantes e, ao final, realizar o sorteio de forma automática. O projeto é desenvolvido em HTML, CSS e JavaScript, proporcionando uma experiência simples e eficiente para organizar o sorteio de Amigo Secreto.
+
+Funcionalidades
+-- Adicionar Participantes: Permite que o usuário insira os nomes dos participantes e verifica se há nomes duplicados.
+-- Realizar Sorteio: Ao clicar em "Sortear", a aplicação embaralha os nomes e organiza o sorteio, exibindo o resultado na tela.
+-- Reiniciar Sorteio: O usuário pode limpar a lista de participantes e o resultado do sorteio para iniciar um novo sorteio.
+
+Estrutura do Projeto
+-- HTML: Estrutura a interface da aplicação, incluindo o formulário para adicionar participantes e a exibição dos resultados do sorteio.
+-- CSS: Define o design visual da aplicação, aplicando estilos para melhorar a experiência do usuário.
+-- JavaScript: Implementa a lógica para adicionar participantes, realizar o sorteio e reiniciar a aplicação.
+
+Tecnologias Utilizadas
+-- HTML
+-- CSS
+-- JavaScript
+
+Como Utilizar
+-- Adicionar um Amigo:
+Digite o nome do participante e clique em "Adicionar". O nome será incluído na lista de amigos, exibida na seção "Amigos incluídos".
+
+-- Realizar Sorteio:
+Após adicionar pelo menos quatro amigos, clique em "Sortear" para embaralhar os nomes e gerar o sorteio. O resultado será exibido na seção "Sorteio".
+
+-- Reiniciar:
+Clique em "Reiniciar" para limpar a lista de participantes e o resultado, permitindo iniciar um novo sorteio.
+
+Estrutura de Arquivos
+-- index.html: Contém a estrutura principal da página e elementos de interface.
+-- style.css: Arquivo de estilização para aplicar o design visual.
+-- app.js: Arquivo de script que controla a lógica de adicionar amigos, realizar o sorteio e reiniciar.
